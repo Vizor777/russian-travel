@@ -1,0 +1,6 @@
+.header__link-container {
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
