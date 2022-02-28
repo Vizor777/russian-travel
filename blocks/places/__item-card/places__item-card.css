@@ -1,0 +1,9 @@
+.places__item-card {
+  display: grid;
+  grid-template-columns: minmax(341px, max-content) 456px;
+  grid-template-rows: max-content 1fr;
+  gap: 48px 32px;
+  grid-template-areas:
+    "title web"
+    "img text";
+}

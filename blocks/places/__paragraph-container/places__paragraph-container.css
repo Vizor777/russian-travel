@@ -1,0 +1,7 @@
+.places__paragraph-container {
+  grid-area: text;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content max-content;
+  row-gap: 26px;
+}
