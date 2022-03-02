@@ -5,3 +5,11 @@
   grid-template-rows: max-content max-content;
   row-gap: 26px;
 }
+
+@media screen and (max-width: 767px) {
+  .places__paragraph-container {
+    margin-left: 16px;
+    row-gap: 25px;
+  }
+
+}

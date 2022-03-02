@@ -6,6 +6,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link-container/header__link-container.css);
 @import url(../blocks/header/__link/_select/header__link_select.css);
+@import url(../blocks/main/main.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -36,10 +37,11 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__overlay-link/cover__overlay-link.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/foot__copyright.css);
 

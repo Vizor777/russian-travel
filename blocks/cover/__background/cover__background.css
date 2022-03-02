@@ -1,4 +1,9 @@
 .cover__background {
-  background-color: rgba(42, 44, 47, 0.3);;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: 0.5s ease-in-out;
+}
 
+.cover__background:hover {
+  transition: 1s ease-in-out;
+  background-color: rgba(42, 44, 47, 0.8);
 }

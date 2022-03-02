@@ -4,3 +4,10 @@
   flex-direction: column;
   justify-content: end;
 }
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    margin-left: 16px;
+  }
+
+}

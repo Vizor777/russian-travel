@@ -1,4 +1,12 @@
 .cover {
-
   background-image: url(../../../images/train__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 0 48px 0 48px;
+  }
+
 }

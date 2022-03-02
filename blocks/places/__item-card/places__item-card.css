@@ -1,9 +1,48 @@
 .places__item-card {
   display: grid;
-  grid-template-columns: minmax(341px, max-content) 456px;
-  grid-template-rows: max-content 1fr;
+  grid-template-columns: 1fr minmax(auto, 456px);
+  grid-template-rows: repeat(2, auto);
   gap: 48px 32px;
   grid-template-areas:
     "title web"
     "img text";
+}
+
+@media screen and (max-width: 767px) {
+  .places__item-card {
+    grid-template-columns: auto;
+    gap: 32px;
+    grid-template-areas:
+      "title"
+      "web"
+      "img"
+      "text";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .places__item-card {
+    grid-template-columns: 1fr minmax(auto, 352px);
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .places__item-card {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .places__item-card {
+    grid-template-columns: 1fr minmax(auto, 484px);
+    gap: 48px 40px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .places__item-card {
+    grid-template-columns: 1fr minmax(auto, 1fr);
+    gap: 48px 40px;
+  }
 }

@@ -4,4 +4,20 @@
   font-weight: 400;
   color: white;
   background-color: #2A2C2F;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 0px 0px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+
+    grid-template-columns: minmax(150px, auto);
+
+  }
 }
