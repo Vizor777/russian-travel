@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 780px){
   .places__item-card {
     grid-template-columns: 1fr minmax(auto, 352px);
     gap: 48px 28px;
@@ -30,7 +30,12 @@
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   .places__item-card {
     grid-template-columns: 1fr 1fr;
-    gap: 48px 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__item-card {
+    grid-template-columns: 1fr minmax(auto, 456px);
   }
 }
 
@@ -43,6 +48,5 @@
 @media screen and (min-width: 1281px) {
   .places__item-card {
     grid-template-columns: 1fr minmax(auto, 1fr);
-    gap: 48px 40px;
   }
 }
